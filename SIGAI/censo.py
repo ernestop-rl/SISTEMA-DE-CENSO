@@ -20,7 +20,7 @@ import cv2
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # --- CONFIGURACIÓN DE LA LÍNEA VERTICAL ---
 linea_x = 320  # Mitad de una pantalla estándar de 640px
